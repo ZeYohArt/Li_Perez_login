@@ -1,0 +1,113 @@
+@font-face {		/*Imports Poppins Font*/
+	font-family: "Poppins";
+	src: url(Poppins-Regular.ttf);
+}
+@font-face {		/*Imports Agrandir Grand Font*/
+	font-family: "Agrandir Grand";
+	src: url(Agrandir-GrandHeavy.otf);
+}
+@font-face {	/*Imports Poppins Bold Font*/
+	font-family: "Poppins B";
+	src: url(Poppins-Bold.ttf);
+}
+
+body {
+	margin: 0px;
+    font-size: 18px;
+    background-image: url("files/sprites.png");
+    
+}
+
+h1 {
+	font-family: Agrandir Grand;
+	font-size: 3rem;
+}
+
+.centerText {
+	text-align: center;
+}
+
+footer {
+    background-color: #2A411A;
+    clear: left;
+    padding: 25px;
+    color: white;
+}
+
+h4 {
+    font-family: Agrandir Grand;
+    font-size: 1.5rem;
+}
+
+.facebookSprite a:link {
+    background: url("sprites.png") no-repeat;
+    background-position: -121px 0px;
+    width: 33px;
+    height: 33px;
+    float: left;
+    margin-left: 30px;
+}
+
+.facebookSprite a:hover {
+    background-position: -121px -34px;
+}
+
+.facebookSprite a:active {
+    background-position: -121px -68px;
+}
+
+.emailSprite a:link {
+    background: url("sprites.png") no-repeat;
+    background-position: -121px -102px;
+    width: 33px;
+    height: 33px;
+    float: left;
+    margin-left: 30px;
+}
+
+.emailSprite a:hover {
+    background-position: -121px -136px;
+}
+
+.emailSprite a:active {
+    background-position: -121px -170px;
+}
+
+.footerCenterElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.headerCard {
+    background: linear-gradient(90deg, #385723, #92D050, #92D050);
+	position: relative;
+}
+
+.bodyCard {
+	background: #ADDC7C;
+}
+
+.headerCard h4 {
+    margin-top: -10px;
+}
+
+#username, #password{
+    outline: none !important;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+#username:focus, #password:focus{
+    background-color: lightgray;
+    outline: none !important;
+    border: 3px solid green;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+#loginAlert {
+    font-style: italic;
+}

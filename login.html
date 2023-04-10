@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diakonos - Login</title>
+    <link rel="stylesheet" type="text/css" href="files/style_login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" href="files/logo.png">
+</head>
+<body>
+    <div class="card w-75 mx-auto my-5">
+        <div class="card-header text-center display-3 p-3 headerCard">
+            <h1>Diakonos Login Page</h1>
+            <h4>Login to Post Content</h4>
+        </div>
+        <div class="card-body bodyCard p-5">
+            <p class="text-center text-danger" id="loginAlert"></p>
+            <div class="text-center">Username: <input type="text" id="username" placeholder="Username"><span class="text-danger">*</span></div>
+            <div class="text-center mb-5">Password: <input type="text" id="password" placeholder="Password"><span class="text-danger">*</span></div>
+            <div class="text-center">
+                <button class="btn bg-secondary footerCenterElement text-light" onclick="login();">Login</button>
+                <button class="btn bg-danger footerCenterElement text-light">Forgot Password?</button>
+            </div>
+            <h4>What is Diakonos?</h4>
+            <p>Diakonos is a mission-driven organization dedicated to sharing the Word of God and empowering youth to become leaders in their communities. With a deep commitment to faith-based values, Diakonos is focused on providing young people with the tools, resources, and support they need to thrive in today's world. Through a variety of programs and initiatives, Diakonos seeks to inspire, educate, and empower the next generation of leaders, while spreading the message of love, compassion, and hope to people of all ages and backgrounds. With a team of dedicated professionals and volunteers, Diakonos is making a difference in the lives of countless individuals and communities around the world.</p>
+        </div>
+    </div>
+    <footer>
+        <h4 class="centerText">Contact Us</h4>
+        <div class="footerCenterElement">
+            <span class="facebookSprite"><a href="https://www.facebook.com/YohanePerez3467"></a></span>
+            <span class="emailSprite"><a href="mailto:yahanesamuel.perez@smc.pshs.edu.ph"></a></span>
+        </div>
+        <p class="centerText">Copyright &copy 2023, Diakonos Inc.</p>
+    </footer>
+    <script src="files/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
